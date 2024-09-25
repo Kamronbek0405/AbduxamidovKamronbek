@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: #280c3f;
+  
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.658);
+  color: white;
+}
+
+.container_shadow{
+  box-shadow: 0 0 50px 5px #693B93;
+  background-color: rgba(0, 0, 0, 0.658);
+
+}
