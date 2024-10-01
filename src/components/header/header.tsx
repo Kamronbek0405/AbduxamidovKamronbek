@@ -8,8 +8,8 @@ export const Header = () => {
                 <img src="/logo.png" alt="logo" className='w-[40px] h-[40px] md:w-[50px] md:h-[50px]' />
 
                 <nav className='flex items-center gap-6 md:gap-12'>
-                    <Link href={"/"} className="hover:text-gray-300">Home</Link>
-                    <Link href={"/about"} className="hover:text-gray-300">About</Link>
+                    <Link href={"/"} className="hover:text-gray-300 animate-fade-in">Home</Link>
+                    <Link href={"/about"} className="hover:text-gray-300 animate-fade-in">About</Link>
                 </nav>
             </div>
         </header>
