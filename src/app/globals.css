@@ -2,19 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-.header{
+.header {
   background-color: #280c3f;
-  
 }
-.container{
+
+.container {
   background-color: rgba(0, 0, 0, 0.658);
   color: white;
 }
 
-.container_shadow{
-  box-shadow: 0 0 50px 5px #693B93;
+.container_shadow {
+  box-shadow: 0 0 50px 5px rgba(105, 59, 147, 0.7); 
   background-color: rgba(0, 0, 0, 0.658);
+  animation: pulse 3s infinite, shadow 3s infinite; 
+  transition: all 0.5s; 
+}
 
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 50px 5px rgba(105, 59, 147, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 50px 3px white; 
+  }
+  100% {
+    box-shadow: 0 0 50px 5px rgba(105, 59, 147, 0.7);
+  }
 }
 
 @keyframes fade-in {
@@ -25,8 +47,8 @@
   100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
+  };
+};
 
 .fade-in {
   animation: fade-in 0.5s ease-in-out forwards;

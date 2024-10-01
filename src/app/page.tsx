@@ -22,6 +22,7 @@ export default function Home() {
           <div className="animate-fade-in container_shadow w-[200px] h-[200px] md:w-[300px] md:h-[300px] flex items-center justify-center p-6 rounded-full">
             <img className="animate-fade-in" src="/image.png" alt="img" />
           </div>
+
         </div>
       </section>
 
@@ -35,34 +36,34 @@ export default function Home() {
             Languages I have learned
           </h1>
           <div className="flex items-center lg:mt-20 gap-4 md:gap-10 flex-wrap mt-20 ml-12 md:mt-10">
-          <Link href={"https://www.w3schools.com/html/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/html.png" alt="html" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
-      </Link>
-      <Link href={"https://css-tricks.com/snippets/css/complete-guide-grid/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/css.png" alt="css" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
-      </Link>
-      <Link href={"https://sass-lang.com/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/sass.png" alt="sass" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
-      </Link>
-      <Link href={"https://www.javascript.com/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/js.png" alt="javascript" className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />
-      </Link>
-      <Link href={"https://react.dev/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/react.png" alt="react" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
-      </Link>
-      <Link href={"https://nextjs.org/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="/nextjs.png" alt="nextjs" className="w-[30px] h-[20px] md:w-[40px] md:h-[25px]" />
-      </Link>
-      <Link href={"https://www.typescriptlang.org/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" className="w-[30px] h-[30px] md:w-[35px] md:h-[35px]" />
-      </Link>
+            <Link href={"https://www.w3schools.com/html/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/html.png" alt="html" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
+            </Link>
+            <Link href={"https://css-tricks.com/snippets/css/complete-guide-grid/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/css.png" alt="css" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
+            </Link>
+            <Link href={"https://sass-lang.com/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/sass.png" alt="sass" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
+            </Link>
+            <Link href={"https://www.javascript.com/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/js.png" alt="javascript" className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />
+            </Link>
+            <Link href={"https://react.dev/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/react.png" alt="react" className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]" />
+            </Link>
+            <Link href={"https://nextjs.org/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="/nextjs.png" alt="nextjs" className="w-[30px] h-[20px] md:w-[40px] md:h-[25px]" />
+            </Link>
+            <Link href={"https://www.typescriptlang.org/"} className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center bg-colorIcon rounded-full transition-transform duration-500 hover:rotate-[360deg]">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" className="w-[30px] h-[30px] md:w-[35px] md:h-[35px]" />
+            </Link>
 
           </div>
         </div>
       </section>
 
-    
-   
+
+
     </div>
   );
 }
